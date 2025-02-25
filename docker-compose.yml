@@ -1,0 +1,11 @@
+# docker-compose.yml
+services:
+  postgres:
+    image: ankane/pgvector
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=support_db
+    ports:
+      - "5432:5432"
+    command: postgres -c max_connections=200 -c shared_buffers=256MB

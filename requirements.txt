@@ -1,0 +1,9 @@
+langchain
+langchain-openai
+langchain-postgres
+langgraph
+slack-bolt
+python-dotenv
+pydantic
+psycopg2-binary
+unstructured[pdf]
