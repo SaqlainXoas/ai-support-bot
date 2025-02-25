@@ -1,29 +1,65 @@
-# AI Support Bot
+# AI Support Bot  🤖
 
-A Slack-based support bot using RAG (Retrieval-Augmented Generation) and LangChain for intelligent customer support.
+A Slack-based support bot that leverages an agent-based architecture to intelligently handle user queries by dynamically selecting and calling the appropriate APIs. Powered by GPT-4 and integrated with multiple services for enhanced functionality.
 
-## Features
+## Overview 🌟
 
-- 🤖 Intelligent query handling with GPT-4
-- 📚 RAG-based knowledge retrieval
-- 🗓️ Google Calendar integration
-- 🌤️ Weather information
-- 🔍 Web search capabilities
-- 📈 Automatic escalation system
+The AI Support Bot is designed to:
+- **Understand natural language** using GPT-4 and semantic matching with Ada embeddings
+- **Dynamically route requests** to appropriate services via agent-based decision making
+- **Integrate multiple APIs** including Google Calendar, Weather, and Web Search
+- **Escalate complex issues** to human agents when needed
+- **Enhance responses** using RAG (Retrieval-Augmented Generation)
 
-## Prerequisites
+
+---
+
+## Features 🚀
+
+| Category              | Capabilities                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| **Core Intelligence** | GPT-4 processing, Ada embeddings, Agent-based decision system              |
+| **Integrations**      | Google Calendar scheduling, Live weather data, Real-time web search        |
+| **Support Features**  | Human escalation workflow, RAG-enhanced knowledge retrieval                |
+| **Infrastructure**    | Dockerized services, PostgreSQL with pgvector, LangChain integration       |
+
+---
+
+## Tech Stack 🛠️
+
+| Component               | Technology Used                          |
+|-------------------------|------------------------------------------|
+| Language Model          | OpenAI GPT-4                             |
+| Embeddings              | OpenAI Ada                               |
+| Vector Database         | PostgreSQL + pgvector                    |
+| APIs                    | Slack, Google Calendar, OpenWeatherMap   |
+| Framework               | LangChain                                |
+| Infrastructure          | Docker, Docker Compose                   |
+
+---
+
+
+
+## Prerequisites 📋
 
 - Python 3.9+
-- Docker and Docker Compose
-- PostgreSQL with pgvector
-- Slack Workspace Admin access
+- Docker & Docker Compose
+- PostgreSQL with [pgvector](https://github.com/pgvector/pgvector)
+- Slack workspace with admin access
 - Google Cloud Platform account
+- API keys for:
+  - OpenAI
+  - Slack
+  - Google Calendar
+  - Weather API
+
+---
 
 ## Environment Setup
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/ai-support-bot.git
+git clone https://github.com/SaqlainXoas/ai-support-bot.git
 cd ai-support-bot
 ```
 
