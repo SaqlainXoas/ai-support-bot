@@ -42,11 +42,7 @@ The AI Support Bot is designed to:
 
 A demonstration of the AI Support Bot in action:
 
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/480665b9-4ed7-4349-b306-033155843c95.mp4">
-    <img src="https://github.com/user-attachments/assets/480665b9-4ed7-4349-b306-033155843c95" alt="Project Demo" width="600"/>
-  </a>
-</div>
+https://github.com/user-attachments/assets/480665b9-4ed7-4349-b306-033155843c95
 
 ## Prerequisites 📋
 
